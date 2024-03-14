@@ -1,16 +1,3 @@
 # dateandtime
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It contains the fetching the current date and time using DateTime class. The displayed date format is jms. As the button of Refresh Time is clicked, the current time gets updated in the screen. The package intl/intl.dart was imported to gets the date and time in proper format.
