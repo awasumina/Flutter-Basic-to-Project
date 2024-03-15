@@ -1,16 +1,3 @@
 # date_picker
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It is a flutter project with Date and Time Picker. It is more convinient UI method. It uses dateandtime class. It also uses async and wait function. async and await are used together to handle asynchronous operations in a synchronous style, making it easier to work with asynchronous code.
