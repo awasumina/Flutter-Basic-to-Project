@@ -1,16 +1,3 @@
 # colored_grid
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The colored grid is composed of colored container that are arranged using the widget GridView. 3 constructor method used to create a GridView are :GridView.count, GridView.extent, GridView.builder.  GridView.count is a constructor method used to create a GridView widget with a fixed number of children along the cross axis.GridView.extent is a constructor method used to create a GridView widget with fixed maximum extent along the cross axis. GridView.builder is a constructor method used to create a scrollable grid layout with a large number of children, where the children are built lazily on-demand. This is particularly useful when dealing with a large or infinite number of items because it only creates the widgets that are currently visible on the screen, improving performance and reducing memory usage.
