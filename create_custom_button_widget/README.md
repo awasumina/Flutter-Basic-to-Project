@@ -1,16 +1,3 @@
 # create_custom_button_widget
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project implements a custom rounded button widget called RoundedButton, which extends StatelessWidget and accepts parameters such as button name, icon, background color, text style, and callback function. The widget utilizes an ElevatedButton with a custom style to create rounded buttons with specified properties. In the main.dart file, the custom button widget is used within a MyHomePage widget, where two instances of RoundedButton are displayed vertically using a Column widget. Each button has its own text, icon (optional), background color, and callback function to perform actions when pressed. The MaterialApp theme is customized with a ColorScheme to define the overall color scheme of the app. Overall, the code demonstrates the creation and usage of a reusable custom button widget in a Flutter application.
