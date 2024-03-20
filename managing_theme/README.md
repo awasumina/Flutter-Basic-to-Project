@@ -1,16 +1,4 @@
 # managing_theme
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Flutter application with a custom theme and a home page containing text widgets. The theme, set in the MyApp class, includes a primary color swatch of amber, a color scheme derived from a specific seed color, and Material 3 design enabled. Text themes are also defined, with a larger display style and a smaller body style. 
+The MyHomePage class represents the app's home page as a stateful widget, displaying a title in the app bar and two text widgets in the body: 'Hello world' styled with the displayLarge text theme and a brown color, and 'Bye world' styled with the bodySmall text theme. This setup showcases how to structure a Flutter app with customized themes and consistent text styling throughout different parts of the user interface.
