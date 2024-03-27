@@ -1,16 +1,6 @@
 # splash_screen
+The overall project consists of three main components: `introscreen.dart`, `main.dart`, and `splash_screen.dart`. 
 
-A new Flutter project.
+Project has contains the `Introscreen` class, which is a StatelessWidget responsible for displaying an introductory screen. It includes a text input field for the user's name and a button to navigate to the next screen. Upon pressing the button, it navigates to `MyHomePage` while passing the user's name as a parameter. Main.dart is the main entry point of the application. It includes the `MyApp` class, which is a StatelessWidget. This class sets up the MaterialApp widget with a theme and defines the home screen as `SplashScreen`. It also includes the `MyHomePage` class, which is a StatefulWidget responsible for the home page UI. It displays a welcome message with the user's name received from the introductory screen and includes a button to navigate back. `SplashScreen` class is a StatefulWidget responsible for displaying a splash screen for a few seconds before navigating to the introductory screen. It uses a Timer to transition to the `Introscreen` after a specified duration.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Overall, the project follows a simple flow: the splash screen is displayed initially, followed by the introductory screen where the user enters their name. After that, the user is directed to the home page, displaying a welcome message with their name and an option to navigate back to the introductory screen.
