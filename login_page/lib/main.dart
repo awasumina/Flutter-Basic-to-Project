@@ -103,9 +103,67 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
               
             
-
+              Container(
+              height:11
+              ),
             
-      
+            
+                  TextField(
+                    controller: pwText,
+                    obscureText: true,
+                    obscuringCharacter: '*',
+                  decoration: InputDecoration(
+                    hintText: 'Enter Password',
+                    border : OutlineInputBorder(
+                      borderRadius : BorderRadius.circular(11),
+                      borderSide : BorderSide(
+                        color : Colors.deepOrange
+                      ),
+            
+                    ),
+            
+                    focusedBorder : OutlineInputBorder(
+                      borderRadius : BorderRadius.circular(11),
+                      borderSide : BorderSide(
+                        color : Colors.deepOrange,
+                        width: 2,
+                      )
+                  ),
+            
+                    prefixIcon: IconButton(
+                    icon: Icon(Icons.remove_red_eye,color:Colors.orangeAccent),
+                    onPressed:(){
+            
+                    }
+                    ),
+              
+                
+                ),
+              ),
+            
+            
+              Container(
+              height:11
+              ),
+              
+            ElevatedButton(
+              onPressed: (){
+                String uemail = emailText.text.toString();
+                String uPass = pwText.text;
+            
+                print('Email:$uemail, password:$uPass');
+            
+            },
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Color.fromARGB(255, 160, 104, 6),
+                ),
+             child: Text(
+              'Login',
+              style: TextStyle(
+                color:Colors.white,
+              )
+            )
+            )
               ],
             ),
           ),
