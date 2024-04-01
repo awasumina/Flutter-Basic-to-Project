@@ -84,11 +84,34 @@ class _MyHomePageState extends State<MyHomePage> {
                                 
                                 
                                 
-                     
+                        ElevatedButton(onPressed: (){
+                          var no1=int.parse(no1Controller.text.toString());
+                          var no2=int.parse(no2Controller.text.toString());
+
+                          var sub = no1-no2;
+                          result = "The subtraction of $no1 and $no2 is $sub";
+                          setState((){});
+                                
+                        }, child: Text('Subtract'),                      style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.blue,
+                          foregroundColor: Colors.white
+                        ), ),
+                                
+
+
+                        ElevatedButton(onPressed: (){
+                          var no1=int.parse(no1Controller.text.toString());
+                          var no2=int.parse(no2Controller.text.toString());
+
+                          var mul = no1*no2;
+                          result = "The multiplication of $no1 and $no2 is ${mul.toStringAsFixed(2)}";
+                          setState((){});
+
 
                                 
                                 
-                       child: Text('Multiply'),                      style: ElevatedButton.styleFrom(
+                                
+                        }, child: Text('Multiply'),                      style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue,
                           foregroundColor: Colors.white
                         ), ),
@@ -112,12 +135,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
               
               
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(result,
-                    style: TextStyle(
-                      fontSize: 25, color:Colors.white),),
-                  )
                 ],
               
                 
