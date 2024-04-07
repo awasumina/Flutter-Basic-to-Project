@@ -1,16 +1,4 @@
 # currency_converter
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Currency Converter project is a mobile application developed using Flutter. The application allows users to convert amounts between US dollars (USD) and Nepalese Rupees (NRP) using either Material Design or Cupertino Design. The main entry point, `main.dart`, defines two types of apps: `MyApp` for Material Design and `MyCupertinoApp` for Cupertino Design. Both apps utilize a shared widget called `CurrencyConverterMaterialPage`, which is responsible for the actual currency conversion functionality. The Material Design version features a colorful user interface with an app bar and text input for entering USD amounts, while the Cupertino Design version adopts a more minimalist style typical of iOS apps, with a navigation bar and text field for input. Both versions update the converted amount dynamically as users input values and press the "Convert" button, demonstrating the flexibility and consistency of Flutter for creating versatile user experiences across different platforms.
