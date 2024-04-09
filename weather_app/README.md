@@ -1,5 +1,6 @@
 # weather_app
 
+
 This Flutter project is a weather application that fetches and displays weather information for a specified city. The main structure revolves around several key components:
 
 1. **Main Entry Point (main.dart):**
