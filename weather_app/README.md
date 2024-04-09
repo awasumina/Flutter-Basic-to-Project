@@ -1,16 +1,21 @@
 # weather_app
 
-A new Flutter project.
+This Flutter project is a weather application that fetches and displays weather information for a specified city. The main structure revolves around several key components:
 
-## Getting Started
+1. **Main Entry Point (main.dart):**
+   The `main.dart` file serves as the entry point for the application.It initializes a Flutter app (`MyApp`) with a dark theme and disables the debug banner.
+   - The `MyApp` widget sets up the MaterialApp with the WeatherScreen as the home screen.
 
-This project is a starting point for a Flutter application.
+2. **Weather Screen (weather_screen.dart):**
+   The `WeatherScreen` is a StatefulWidget responsible for displaying weather information. It includes an app bar with a refresh button to update weather data. The main body of the screen consists of a FutureBuilder to handle asynchronous data fetching. The weather data is obtained from the OpenWeatherMap API using an API key stored in a separate `secrets.dart` file. The screen shows the current temperature, weather conditions, and additional information like humidity, wind speed, and pressure. Hourly weather forecast cards are displayed using a ListView.builder for lazy loading.
 
-A few resources to get you started if this is your first Flutter project:
+3. **Additional Info Item (additional_info_item.dart):**
+   - This widget defines a reusable component for displaying additional weather information. It takes an icon, label, and value to display humidity, wind speed, and pressure.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. **Hourly Forecast Item (hourly_forecast_item.dart):**
+   - Similar to Additional Info Item, this widget handles the display of hourly weather forecast items. It shows the time, temperature, and weather condition icon for each hourly forecast.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. **Secrets (secrets.dart):**
+   - This file contains sensitive information like API keys (e.g., OpenWeatherMap API key). It is essential to keep such information secure and out of version control systems.
+
+Overall, the project demonstrates how to fetch and display weather data using Flutter widgets and asynchronous programming techniques. It emphasizes code modularity by separating UI components into reusable widgets, enhancing maintainability and scalability.
