@@ -1,19 +1,10 @@
 # navigation_starting
-Navigation in Flutter: The Initial Journey 🗺️
-Welcome to the foundational project of the Navigation module, brought to you by Sagnik Bhattacharya and the dedicated team at Coding Liquids. Navigation is the backbone of user experience in any application. This project is designed to give you hands-on experience and a comprehensive understanding of navigation in Flutter.
+This Flutter project defines a simple application with multiple routes for different screen sizes. The `main.dart` file sets up the application and uses the `url_strategy` package to handle URL routing. The `routes.dart` file contains logic for generating different routes based on screen size, and there are separate files for the home and about pages for both web and mobile platforms.
 
-Project Overview 🌐
-The Navigation app showcases various techniques and practices used for navigation in Flutter. From simple page routing to complex transitions, this project has it all.
+The `main.dart` file initializes the app with a MaterialApp widget, where routes are generated dynamically using `onGenerateRoute` by calling the `Routes.generateRoute` method defined in `routes.dart`.
 
-Features:
-Basic Routing: Understand the basics of navigating between screens.
-Arguments Passing: Learn how to pass data between routes.
-Advanced Transitions: Dive into smooth and stylish page transitions.
-Drawer & Tab Navigation: Grasp the concept of lateral and bottom navigation patterns.
-Getting Started 🚀
-Prerequisites:
-Ensure you have:
+In `routes.dart`, the `Routes` class contains a `generateRoute` method that switches between different routes based on the route name. It checks the screen width using a `LayoutBuilder` and navigates to the appropriate page (HomeWeb, HomeMobile, AboutWeb, or AboutMobile).
 
-Flutter SDK
-Dart
-An emulator or a physical device
+Each page (`HomeWeb`, `HomeMobile`, `AboutWeb`, `AboutMobile`) is a StatefulWidget with a scaffold containing a centered column. Each page displays a title, some text (passed as arguments), and a button to navigate back.
+
+Overall, this code demonstrates a responsive Flutter application with dynamic routing based on screen size.
