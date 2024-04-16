@@ -6,5 +6,5 @@ The `main.dart` file initializes the app with a MaterialApp widget, where routes
 In `routes.dart`, the `Routes` class contains a `generateRoute` method that switches between different routes based on the route name. It checks the screen width using a `LayoutBuilder` and navigates to the appropriate page (HomeWeb, HomeMobile, AboutWeb, or AboutMobile).
 
 Each page (`HomeWeb`, `HomeMobile`, `AboutWeb`, `AboutMobile`) is a StatefulWidget with a scaffold containing a centered column. Each page displays a title, some text (passed as arguments), and a button to navigate back.
-
-Overall, this code demonstrates a responsive Flutter application with dynamic routing based on screen size.
+ 
+Overall, this code demonstrates a responsive Flutter application with dynamic routing based on screen size.  
