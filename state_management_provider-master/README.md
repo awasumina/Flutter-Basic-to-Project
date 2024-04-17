@@ -1,16 +1,7 @@
 # state_management_provider
 
-A new Flutter project.
+The project consists of two main Dart files: `main.dart` and `counter_view.dart`, along with a `CounterViewModel` class in a separate file. In `main.dart`, the Flutter application is initiated with `MyApp` as the entry point, which is a stateless widget defining the overall structure of the app using MaterialApp, with `CounterView` as the home screen. 
 
-## Getting Started
+Moving to `counter_view.dart`, it contains the `CounterView` widget, a stateful component responsible for displaying a counter and handling user interactions. This widget utilizes the Provider package for state management, creating a ChangeNotifierProvider for `CounterViewModel`. The `_CounterViewState` class manages the state of `CounterView`, with its build method constructing the UI elements such as an app bar, a central counter display, and a floating action button for incrementing the count.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Lastly, the `CounterViewModel` class encapsulates the logic for managing the counter state. It extends ChangeNotifier to notify listeners (like `CounterView`) when the state changes, primarily through the `increment` method that updates the count and triggers a UI refresh. Overall, the code follows Flutter's MVVM architecture, ensuring a separation of concerns between the UI presentation (`CounterView`) and the state management (`CounterViewModel`).
