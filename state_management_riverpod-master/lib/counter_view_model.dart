@@ -7,7 +7,7 @@ final stateProvider =
 class CounterViewModel extends ChangeNotifier {
   int _counter = 0;
   int get counter => _counter;
-  void add() {
+  void add() { 
     _counter++;
     notifyListeners();
   }
