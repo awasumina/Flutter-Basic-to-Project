@@ -1,0 +1,28 @@
+name: launch_pad
+description: "Launch Pad Music App, Dive into a musical journey with pads that play unique sounds. Crafted by Sagnik Bhattacharya from Coding Liquids for the course Complete Flutter Guide Build Android, iOS, and Web. An interactive way to learn Flutter!"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.0.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+  flutter_app_name: ^0.1.1
+flutter_app_name:
+  name: "LaunchPad"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
