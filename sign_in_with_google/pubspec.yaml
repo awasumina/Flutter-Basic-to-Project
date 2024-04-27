@@ -1,0 +1,55 @@
+name: app_budget
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  logger: ^2.0.2+1
+  cloud_firestore:
+  firebase_auth:
+  flutter_hooks:
+  hooks_riverpod:
+  google_fonts:
+  google_sign_in:
+  sign_button: ^2.0.2
+  url_strategy: ^0.2.0
+  url_launcher: ^6.1.14
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  launcher_name: ^1.0.2 # check latest version on pub.dev
+
+launcher_name:
+  default: "Budget App"
+  es: "Budget App"
+  fr: "Budget App"
+  de: "Budget App"
+
+
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
