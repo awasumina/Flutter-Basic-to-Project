@@ -1,16 +1,3 @@
 # multithreading
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This Flutter project showcases multithreading using isolates. It consists of a stateful widget, `MyApp`, with a floating action button that increments a counter when pressed and spawns an isolate to execute a function called `multithreadingFunction` with an input of 100. The `multithreadingFunction` increments a counter and prints even numbers during its execution. The app's UI includes a centered column displaying the current counter value. This setup illustrates the use of isolates for concurrent processing in Flutter, separating the heavy computation of `multithreadingFunction` from the main UI thread.
