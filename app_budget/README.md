@@ -3,7 +3,7 @@ The Budget app - Flutter application is structured into several Dart files to ma
  
 The main features include:
 Sure, here are the main points of the Flutter app's features:
-
+ 
 1. User Authentication:
    - Registration with email/password.
    - Login with existing credentials.

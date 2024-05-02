@@ -9,7 +9,7 @@ import 'responsive_handler.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  if (kIsWeb) {
+  if (kIsWeb) { 
     //if running in web
     setPathUrlStrategy();
     await Firebase.initializeApp(

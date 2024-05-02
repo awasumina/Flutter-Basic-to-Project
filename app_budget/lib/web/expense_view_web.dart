@@ -5,7 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../components.dart';
 import '../view_model.dart';
-
+ 
 bool isLoading = true;
 
 class ExpenseViewWeb extends HookConsumerWidget {
