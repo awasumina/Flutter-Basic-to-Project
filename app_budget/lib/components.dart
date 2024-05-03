@@ -11,7 +11,7 @@ class OpenSans extends StatelessWidget {
       {Key? key,
       required this.text,
       required this.size,
-      this.color,
+      this.color,  
       this.fontWeight})
       : super(key: key);
 
