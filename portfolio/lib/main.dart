@@ -12,7 +12,7 @@ void main() async {
   setPathUrlStrategy();
   runApp(const MyApp());
 }
-
+ 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

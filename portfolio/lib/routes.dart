@@ -11,7 +11,7 @@ import 'package:portfolio/web/blog_web.dart';
 import 'package:portfolio/web/contact_web.dart';
 import 'package:portfolio/web/landing_page_web.dart';
 import 'package:portfolio/web/works_web.dart';
-
+ 
 class Routes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
