@@ -2,7 +2,8 @@
 
 Welcome to the Flutter Projects repository! Here you will find a collection of Flutter projects ranging from basic to advanced integrated with Firebase for backend services. 
 
-Some of the major projects include 
+Some of the major projects include :
+
 -A Flutter weather app that displays current weather information based on user location using OpenWeatherMap API
 
 -A Flutter app demonstrating user authentication using Google Sign-In API
