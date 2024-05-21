@@ -8,7 +8,7 @@ The project consists of two main files:
 
 - `components.dart`: Contains custom widgets like `SansBold`, `Sans`, `BoxContainer`, and `TextForm` for text styling and input fields.
 - `main.dart`: Implements the main UI structure, including an AppBar, Drawer for navigation and user details, search bar, call logs display, and styled containers.
-
+ 
 ## Features
    
 - Drawer Navigation: Mimics Truecaller's drawer for user settings and navigation options. 
