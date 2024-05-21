@@ -1,6 +1,6 @@
 # truecaller
 
-This Flutter project is a UI clone of the Truecaller app, demonstrating UI development skills using Flutter widgets and Google Fonts.
+This Flutter project is a UI clone of the Truecaller app, demonstrating UI development skills using Flutter widgets and Google Fonts. 
 
 ## Overview
 
