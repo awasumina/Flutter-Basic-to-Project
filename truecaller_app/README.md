@@ -11,7 +11,7 @@ The project consists of two main files:
 
 ## Features
 
-- Drawer Navigation: Mimics Truecaller's drawer for user settings and navigation options.
+- Drawer Navigation: Mimics Truecaller's drawer for user settings and navigation options. 
 - Search Bar: Allows users to search for numbers, names, and more.
 - Call Logs: Displays recent call logs with user avatars, call durations, locations, and call icons.
 - Styled Containers: Uses custom containers for aesthetic presentation of information.
