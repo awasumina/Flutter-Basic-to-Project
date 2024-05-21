@@ -10,7 +10,7 @@ The project consists of two main files:
 - `main.dart`: Implements the main UI structure, including an AppBar, Drawer for navigation and user details, search bar, call logs display, and styled containers.
 
 ## Features
-
+   
 - Drawer Navigation: Mimics Truecaller's drawer for user settings and navigation options. 
 - Search Bar: Allows users to search for numbers, names, and more.
 - Call Logs: Displays recent call logs with user avatars, call durations, locations, and call icons.
